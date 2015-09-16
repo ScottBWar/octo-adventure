@@ -1,3 +1,8 @@
+body{
+  background: rgba(250, 250, 250, 0.7);
+}
+
+
 hr {
     border: solid #DDDDDD;
     border-width: 1px 0 0;
@@ -8,11 +13,13 @@ hr {
 
 .header {
   text-align: center;
-  background: url("https://static.pexels.com/photos/6894/summer-photographer-pier-adventure-large.jpg") no-repeat center center;
+  background: url("https://static.pexels.com/photos/8352/pexels-photo.jpg") no-repeat center center;
   background-size: cover;
   padding: 4rem; }
   .header .main-header {
-    color: #666; }
+    color: white;
+    font-size:60px;
+     }
 
 .header-subnav {
   float: none;
@@ -45,11 +52,17 @@ hr {
 }
 
 .tech{
-  margin-top:5px;
+  margin-top:40px;
   margin-bottom:40px;
   height:50px;
 }
 
+.contactIf{
+  list-style-type: none;
+}
+
+#encourage{
+}
 /**/
 
 /*.img1{
