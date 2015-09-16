@@ -20,6 +20,10 @@ hr {
   top: 4rem;
   text-align: center;
   margin-bottom: 0; }
+  .header-subnav .tabs{
+  	color:red;
+
+  }
   .header-subnav li {
     float: none;
     display: inline-block; }
