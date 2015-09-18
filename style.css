@@ -1,5 +1,5 @@
 body{
-  background: url("techlogos/superBackground.jpeg") no-repeat center center fixed;
+  background: url("techlogos/Optimized-superBackground.jpeg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -122,10 +122,14 @@ hr {
 
 .bioSquare{
   margin:0 auto;
-  max-width:30rem;
-  background-color:rgba(0,0,0,0.8);
+  max-width:50rem;
+/*  background-color:rgba(0,0,0,0.8);*/
   padding:1rem;
-  color:rgba(255,255,255,0.4);
+ /* color:rgba(255,255,255,0.4);*/
+}
+
+.bioSquare h3{
+  font-size:4rem;
 }
 
 #face{
