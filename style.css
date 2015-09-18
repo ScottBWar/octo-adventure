@@ -1,5 +1,10 @@
 body{
-  background: url("https://static.pexels.com/photos/8352/pexels-photo.jpg") no-repeat center center;
+  background: url("techlogos/superBackground.jpeg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 ul{
@@ -21,7 +26,7 @@ hr {
   padding: 2.5rem; }
   .header .main-header {
     color: rgba(250, 250, 250, 0.99);
-    font-size:60px;
+    font-size:4rem;
      }
 
 .header-subnav {
