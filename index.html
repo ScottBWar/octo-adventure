@@ -5,17 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Scott</title>
     <link rel="stylesheet" href="foundation.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-
+  <!--   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+ -->
 
 
 
   <script src="js/vendor/modernizr.js"></script>
    <script src="js/vendor/jquery.js"></script>
+    <script src="js/wow.js"></script>
    <script src="js/vendor/fastclick.js"></script>
   <script src="js/foundation.min.js"></script>
 
@@ -26,7 +28,7 @@
   <body>
 
 
-<header class="header">
+<header class="header animated fadeIn">
  <!--  <h1 class="main-header">Well, hello there.</h1> -->
   <ul class="header-subnav tabs" data-tab>
     <li class="active" ><a id="aboutTab"href="#about" class="tab-title">I'm Scott.</a></li>
@@ -50,7 +52,7 @@
        <!--  <img src="techlogos/scottsquare.jpg" id="face"> -->
           <h1 style="font-size:4.5rem;text-align:center">I'm a web developer.</h1>
        <!--    <h4 style="subheader">Among other things</h4> -->
-          <p class="subheader">I often dream in code, and I harbor a constant desire to learn and discover new ways to solve problems digitally. I dive deeply into new technologies with delightful alacrity. Lately I've been fascinated with Front-end frameworks, User Interface design, data visualization and functional programming languages.</p>
+          <p class="subheader">I dream in code. I harbor a constant desire to learn and discover new ways to solve problems digitally. I dive deeply into new technologies with delightful alacrity. I'm fascinated with Front-end frameworks, User Interface design, data visualization and functional programming languages.</p>
      <!--    </div>
  -->
           
@@ -67,7 +69,7 @@
         <div class="gridspace" >
         <h3 id="things">Things I know and love:</h3>
 
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.05s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -78,7 +80,7 @@
           </div>
         </div>
 
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.1s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -89,7 +91,7 @@
           </div>
         </div>
 
-       <div class="square">
+       <div class="square wow flipInY" data-wow-delay="0.2s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -102,7 +104,7 @@
 
 
 
-       <div class="square">
+       <div class="square wow flipInY" data-wow-delay="0.2s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -115,7 +117,7 @@
 
        
        
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.1s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -128,7 +130,7 @@
 
 
 
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.05s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -140,7 +142,7 @@
         </div>
 
 
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.2s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -153,7 +155,7 @@
 
        
        
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.1s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -166,7 +168,7 @@
 
 
         
-       <div class="square">
+       <div class="square wow flipInY" data-wow-delay="0.05s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -186,7 +188,7 @@
       <hr>
       <h4 id="teaching">I'm currently teaching myself:</h4>
 
-      <div class="square">
+      <div class="square wow flipInY" data-wow-delay="0.1s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -197,7 +199,7 @@
           </div>
         </div>
 
-        <div class="square">
+        <div class="square wow flipInY" data-wow-delay="0.3s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -208,7 +210,7 @@
           </div>
         </div>
 
-      <div class="square">
+      <div class="square wow flipInY" data-wow-delay="0.5s">
           <div class="squareContent">
           <div class="table">
           <div class="table-cell">
@@ -404,6 +406,7 @@
     
 <script>
     $(document).foundation();
+     new WOW().init();
   </script>
   </body>
 </html>
