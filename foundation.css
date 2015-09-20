@@ -3518,18 +3518,44 @@ ul.pagination {
       text-transform: uppercase; }
 
 .accordion {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2); }
   .accordion:before, .accordion:after {
     content: " ";
     display: table; }
   .accordion:after {
     clear: both; }
+    .accordion .accordion-navigation {
+  -moz-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  -webkit-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+  /*    @include box-shadow(0 0 1px rgba(black, 0.2)); */
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.accordion .accordion-navigation.active {
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.5);
+}
   .accordion .accordion-navigation, .accordion dd {
     display: block;
     margin-bottom: 0 !important; }
     .accordion .accordion-navigation.active > a, .accordion dd.active > a {
-      background: #e8e8e8; }
+      background: #e8e8e8;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background: transparent; }
     .accordion .accordion-navigation > a, .accordion dd > a {
+        -moz-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  -webkit-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+  background: transparent;
+
       /*background: #EFEFEF;*/
       color: #222222;
       display: block;
@@ -3537,11 +3563,30 @@ ul.pagination {
       font-size: 3rem;
       padding: 1rem; }
       .accordion .accordion-navigation > a:hover, .accordion dd > a:hover {
-        background: #e3e3e3; }
+        background: rgba(0, 0, 0, 0.1) }
     .accordion .accordion-navigation > .content, .accordion dd > .content {
-      display: none;
-      padding: 0.9375rem; }
+        display: block;
+  max-height: 0;
+  overflow-y: hidden;
+  padding: 0 1rem;
+  -moz-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  -webkit-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+   /*   display: none;
+      padding: 0.9375rem;*/ }
       .accordion .accordion-navigation > .content.active, .accordion dd > .content.active {
+         max-height: 70vh;
+  padding: 1rem;
+  -moz-transition: ease 0.2s all;
+  -o-transition: ease 0.2s all;
+  -webkit-transition: ease 0.2s all;
+  transition: ease 0.2s all;
+  -moz-transition-delay: 0.2s;
+  -o-transition-delay: 0.2s;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+  background: transparent;
       /*  background: #FFFFFF;*/
         display: block; }
 
