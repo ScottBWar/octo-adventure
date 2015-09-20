@@ -23,7 +23,7 @@ hr {
   text-align: center;
   /*background: url("https://static.pexels.com/photos/8352/pexels-photo.jpg") no-repeat center center;*/
   background-size: cover;
-  padding: 2.5rem; }
+  padding: 2rem; }
   .header .main-header {
     color: rgba(250, 250, 250, 0.99);
     font-size:4rem;
@@ -32,7 +32,7 @@ hr {
 .header-subnav {
   float: none;
   position: relative;
-  top: 2.45rem;
+  top: 1.95rem;
   text-align: center;
   margin:0 auto; }
   .header-subnav li:focus{
