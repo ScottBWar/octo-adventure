@@ -1,0 +1,56 @@
+/*----- Accordion -----*/
+.cordion, .cordion * {
+    -webkit-box-sizing:border-box; 
+    -moz-box-sizing:border-box; 
+    box-sizing:border-box;
+}
+ 
+.cordion {
+    overflow:hidden;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.25);
+    border-radius:3px;
+ /*   background:#f7f7f7;*/
+}
+
+.cordion-section{
+    margin-top:4rem;
+}
+ 
+ a{
+    text-decoration: none;
+ }
+/*----- Section Titles -----*/
+.cordion-section-title {
+    width:100%;
+    padding:15px;
+    display:inline-block;
+   /* border-bottom:1px solid #1a1a1a;*/
+   /* background:#333;*/
+    transition:all linear 0.15s;
+    /* Type */
+    font-size:1.200em;
+    text-shadow:0px 1px 0px #1a1a1a;
+    color:black;
+}
+ 
+.cordion-section-title.act, .cordion-section-title:hover {
+    /*background:#4c4c4c;*/
+    /* Type */
+    text-decoration:none;
+}
+
+.cordion-section-title.act .arrow{
+    color:cyan;
+   
+
+}
+ 
+.cordion-section:last-child .cordion-section-title {
+    border-bottom:none;
+}
+ 
+/*----- Section Content -----*/
+.cordion-section-content {
+    padding:15px;
+    display:none;
+}

@@ -10,6 +10,10 @@
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="normalize.css">
+
+
+    <link rel="stylesheet" href="CircularContentCarousel/css/ca-style.css">
+     <link rel="stylesheet" href="CircularContentCarousel/css/jquery.jscrollpane.css">
   <!--   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
  -->
 
@@ -21,6 +25,8 @@
    <script src="js/vendor/fastclick.js"></script>
   <script src="js/foundation.min.js"></script>
 
+
+
     <script src="script.js"></script>
 
 
@@ -31,7 +37,7 @@
 <header class="header animated fadeIn">
  <!--  <h1 class="main-header">Well, hello there.</h1> -->
   <ul class="header-subnav tabs" data-tab>
-    <li class="active" ><a id="aboutTab"href="#about" class="tab-title">I'm Scott.</a></li>
+    <li  class="active"  ><a id="aboutTab"href="#about" class="tab-title">I'm Scott.</a></li>
     <li ><a id="workTab" href="#work"class="tab-title ">I Make Things,</a></li>
     <li ><a id="contactTab" href="#contact"class="tab-title">Contact Me!</a></li>
   </ul>
@@ -39,7 +45,7 @@
 
 	<div class="tabs-content">
 	
-		<div class="content active" id="about">
+		<div class="content active " id="about">
 
 
       <div class="row">
@@ -55,18 +61,16 @@
           <p class="subheader">I dream in code. I harbor a constant desire to learn and discover new ways to solve problems digitally. I dive deeply into new technologies with delightful alacrity. I'm fascinated with Front-end frameworks, User Interface design, data visualization and functional programming languages.</p>
      <!--    </div>
  -->
-          
-
-  
-
+        
 
         </div>
-                  <!-- <img src="techlogos/scottsquare.jpg" style="width:220px;height:220px;border-radius:180px;"> -->
+
+
        
       </div>
 
       <div class="row">
-        <div class="gridspace" >
+        <div class="gridspace vanish" >
         <h3 id="things">Things I know and love:</h3>
 
         <div class="square wow flipInY" data-wow-delay="0.1s" data-wow-duration="2s">
@@ -242,16 +246,20 @@
         </div>
         </div>
 
-          <div class="row project wow slideInLeft">
+        <ul class="accordion" data-accordion>
+  <li class="accordion-navigation">
+    <a href="#panel1a">Accordion 1</a>
+    <div id="panel1a" class="content active">
+     <div class="row project ">
 
           <div class="large-4 columns">
             <div class="screenshot">
-            <img  src="techlogos/flashyscreen.png">
+            <img  src="techlogos/flashyscreen2.png" style="width:28rem;">
             </div>
           </div>
           <div class="large-8 columns">
           <h5>Ruby App- <strong>FlashyCards</strong></h5>
-          <h6 class="subheader">A customizable flashcard web app with a simple, sleek and appealing visual design.</h6>
+          <p class="subheader">A customizable flashcard web app with a simple, sleek and appealing visual design.</p>
             <ul class="techUsed">
             
               <li>- Sinatra MVC Framework</li>
@@ -263,8 +271,12 @@
           </div>
 
       </div>
-        <!--endrow -->
-        <div class="row project">
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel2a">Accordion 2</a>
+    <div id="panel2a" class="content">
+     <div class="row project">
       <div class="large-8 columns">
 
 
@@ -289,7 +301,12 @@
            </div>
       </div>
       </div>
-
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel3a">Accordion 3</a>
+    <div id="panel3a" class="content">
+      
       <div class="row project">
 
           <div class="large-4 columns">
@@ -310,28 +327,55 @@
           </div>
 
       </div>
+    </div>
+  </li>
+  <li class="accordion-navigation">
+    <a href="#panel4a">Accordion 4</a>
+    <div id="panel4a" class="content">
+     <div class="row project">
+      <div class="large-8 columns">
 
 
-       <!-- 
-           
-            <div class="topic"><h5>Rails/Cordova- <strong>HomeBase</strong></h5></div>
-            <img src="techlogos/homebase.png" style="height:200px">
+          <h5>AngularJS- <strong>d20 PointBuyer</strong></h5>
+           <h6 class="subheader">Rapid prototyping for America's favorite RPG, powered by AngularJS.</h6>
             <ul class="techUsed">
             
-              <li>- RESTful Rails API</li>
-              <li>- AJAX & mustache.js templating</li>
-              <li>- Ionic CSS module</li>
-              <li>- CSS Animations</li>
+              <li>- Two way data-binding calculates scores & fills in character sheet dynamically</li>
+              <li>- Custom Angular Directives</li>
+              <li>- Animates page as data changes with ngAnimate</li> 
+            
+
 
             </ul>
- -->
-
+          </div>
           
+           
+          
+          <div class="large-4 columns">
+          <div class="screenshot"style="float:right;">
+           <img src="techlogos/creatorscreenshot.png" >
+           </div>
+      </div>
+      </div>
+    </div>
+  </li>
+</ul>
+
+
+
+
+         
+        <!--endrow-->
         
 
 
-        
 
+
+
+
+
+    
+    
 
       
 
@@ -407,6 +451,10 @@
 <script>
     $(document).foundation();
      new WOW().init();
+
+ 
+      $('#ca-container').contentcarousel();
+  
   </script>
   </body>
 </html>

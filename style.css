@@ -85,18 +85,25 @@ hr {
 }
 
 .screenshot{
-  width:20rem;
-  height:20rem;
-  border:2px solid black;
+  margin:0 auto;
+  width:100%;
+
+  border:2px solid purple;
+  /*width:21rem;
+  max-width:34rem;
+  max-height:34rem;*/
 }
 
 .screenshot img{
-  max-width:100%;
-  max-height:100%;
+ /*height:100px;
+ width:100px;*/
+  border:2px solid black;
 }
 
 .project{
+  text-align:center;
   border:1px solid cyan;
+  min-height:25rem;
 }
 
 .tabs-content{
@@ -166,7 +173,6 @@ margin:0 auto;
 }
 
 #things{
-  text-align:center;
   margin-top:4rem;
   margin-bottom:-0.5rem;
 }
@@ -176,6 +182,8 @@ margin:0 auto;
   margin-top:4rem;
   margin-bottom:-0.5rem;
 }
+
+
 
 .square {
     float:left;
@@ -221,6 +229,8 @@ margin:0 auto;
   margin-top:-3rem;
   margin-bottom:5rem;
 }
+
+
 /**/
 
 /*.img1{
