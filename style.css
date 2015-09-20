@@ -230,6 +230,20 @@ margin:0 auto;
   margin-bottom:5rem;
 }
 
+@charset "UTF-8";
+.accordion-navigation > a:after {
+  content: "↡";
+  padding-left: 5px;
+  float: right;
+  font-size: 20px; }
+.accordion-navigation.active a:after {
+  content: "↟"; }
+
+
+.accordion-div{
+  width:90%;
+  margin:0 auto;
+}
 
 /**/
 

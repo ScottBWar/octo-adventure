@@ -12,8 +12,7 @@
     <link rel="stylesheet" href="normalize.css">
 
 
-    <link rel="stylesheet" href="CircularContentCarousel/css/ca-style.css">
-     <link rel="stylesheet" href="CircularContentCarousel/css/jquery.jscrollpane.css">
+  
   <!--   <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
  -->
 
@@ -37,15 +36,15 @@
 <header class="header animated fadeIn">
  <!--  <h1 class="main-header">Well, hello there.</h1> -->
   <ul class="header-subnav tabs" data-tab>
-    <li  class="active"  ><a id="aboutTab"href="#about" class="tab-title">I'm Scott.</a></li>
-    <li ><a id="workTab" href="#work"class="tab-title ">I Make Things,</a></li>
+    <li  ><a id="aboutTab"href="#about" class="tab-title">I'm Scott.</a></li>
+    <li  class="active" ><a id="workTab" href="#work"class="tab-title ">I Make Things,</a></li>
     <li ><a id="contactTab" href="#contact"class="tab-title">Contact Me!</a></li>
   </ul>
 </header>
 
 	<div class="tabs-content">
 	
-		<div class="content active " id="about">
+		<div class="content  " id="about">
 
 
       <div class="row">
@@ -232,7 +231,7 @@
 
      </div>
 
-     <div class="content" id="work">
+     <div class="content active" id="work">
 
 
 
@@ -245,11 +244,11 @@
           <p class="subheader" id="githeader">And you can view all of my source code on <a href="www.github.com/scottbwar">Github</a>.</p>
         </div>
         </div>
-
+        <div class="accordion-div">
         <ul class="accordion" data-accordion>
   <li class="accordion-navigation">
-    <a href="#panel1a">Accordion 1</a>
-    <div id="panel1a" class="content active">
+    <a href="#panel1a"><span class="angle">></span> Ruby/Sinatra/jQuery</a>
+    <div id="panel1a" class="content">
      <div class="row project ">
 
           <div class="large-4 columns">
@@ -274,7 +273,7 @@
     </div>
   </li>
   <li class="accordion-navigation">
-    <a href="#panel2a">Accordion 2</a>
+    <a href="#panel2a"><span class="angle">></span> Rails/Cordova/AJAX</a>
     <div id="panel2a" class="content">
      <div class="row project">
       <div class="large-8 columns">
@@ -304,7 +303,7 @@
     </div>
   </li>
   <li class="accordion-navigation">
-    <a href="#panel3a">Accordion 3</a>
+    <a href="#panel3a"><span class="angle">></span> HTML5 Canvas</a>
     <div id="panel3a" class="content">
       
       <div class="row project">
@@ -330,7 +329,7 @@
     </div>
   </li>
   <li class="accordion-navigation">
-    <a href="#panel4a">Accordion 4</a>
+    <a href="#panel4a"><span class="angle">></span> AngularJS</a>
     <div id="panel4a" class="content">
      <div class="row project">
       <div class="large-8 columns">
@@ -360,6 +359,7 @@
     </div>
   </li>
 </ul>
+</div>
 
 
 
@@ -453,7 +453,7 @@
      new WOW().init();
 
  
-      $('#ca-container').contentcarousel();
+    
   
   </script>
   </body>
