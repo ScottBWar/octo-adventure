@@ -272,18 +272,19 @@ margin:0 auto;
     border: 2px solid #444;
     position: relative;
     margin: auto; 
-    top:2.3rem;
+    top:2.2rem;
   }
 
 .panel9 h1{
-
- text-transform: uppercase;
+font-size:1.5rem;
+text-align:center;
+ /*text-transform: uppercase;*/
  font-family:"proxima_novabold";
 /* font: bolder 0.875rem "Avenir Next";*/
  letter-spacing: 3px;
  /*color: #666;*/
  color:white;
- font-size: 98%;
+/* font-size: 98%;*/
  text-align: center;
  line-height: 2rem; 
 
@@ -292,6 +293,7 @@ margin:0 auto;
 .accordion-div{
   width:80%;
   margin:0 auto;
+  margin-bottom: 5%;
 }
 
 
