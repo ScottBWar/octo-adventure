@@ -153,10 +153,12 @@ hr {
   animation-name: fadeOutLeft;
 }
 .tabs-content .content.active {
+  
   animation-duration: 2s;
   animation-name: fadeIn;
 }
 @keyframes fadeIn {
+
   from { opacity: 0; }
   to { opacity: 1; }
 }
