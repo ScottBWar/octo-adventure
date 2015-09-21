@@ -153,7 +153,7 @@ hr {
   animation-name: fadeOutLeft;
 }
 .tabs-content .content.active {
-  
+
   animation-duration: 2s;
   animation-name: fadeIn;
 }
@@ -246,6 +246,20 @@ margin:0 auto;
   width:90%;
   margin:0 auto;
 }
+
+
+.contact-div{
+  width:70%;
+  margin:0 auto;
+
+}
+
+.contact-div img{
+  width:4.5rem;
+
+}
+
+
 
 /**/
 
