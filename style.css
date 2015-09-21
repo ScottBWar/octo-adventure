@@ -179,12 +179,13 @@ margin:0 auto;
 }
 
 #things{
+   font-family:"proxima_novabold";
   margin-top:4rem;
   margin-bottom:-0.5rem;
 }
 
 #teaching{
-  text-align:center;
+  font-family:"proxima_novabold";
   margin-top:4rem;
   margin-bottom:-0.5rem;
 }
@@ -238,9 +239,21 @@ margin:0 auto;
 
 #dream{
    text-align: center;
-  margin-top:-3rem;
-  margin-bottom:5rem;
+ /* margin-top:-3rem;
+  margin-bottom:5rem;*/
 
+}
+
+.bolden{
+  font-family:"proxima_novabold";
+}
+
+.page{
+  z-index:1;
+  margin:0 auto;
+  width:80%;
+  border:2px solid black;
+  background:rgba(255,255,255,0.4);
 }
 
 @charset "UTF-8";
@@ -252,9 +265,32 @@ margin:0 auto;
 .accordion-navigation.active a:after {
   content: "↟"; }
 
+  .panel9{
+    z-index:2;
+    background: rgba(10,10,10,1);
+    width: 40%;
+    border: 2px solid #444;
+    position: relative;
+    margin: auto; 
+    top:2.3rem;
+  }
+
+.panel9 h1{
+
+ text-transform: uppercase;
+ font-family:"proxima_novabold";
+/* font: bolder 0.875rem "Avenir Next";*/
+ letter-spacing: 3px;
+ /*color: #666;*/
+ color:white;
+ font-size: 98%;
+ text-align: center;
+ line-height: 2rem; 
+
+}
 
 .accordion-div{
-  width:90%;
+  width:80%;
   margin:0 auto;
 }
 
