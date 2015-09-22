@@ -32,7 +32,7 @@ hr {
      }
 
 .header-subnav {
-  font-family:'proxima_novabold';
+  font-family:'proxima_novaregular';
   font-weight:bold;
   float: none;
   position: relative;
@@ -93,7 +93,7 @@ hr {
   margin:0 auto;
   width:100%;
 
-  border:2px solid purple;
+ /* border:2px solid purple;*/
   /*width:21rem;
   max-width:34rem;
   max-height:34rem;*/
@@ -107,16 +107,18 @@ hr {
 
 .project{
   text-align:center;
-  border:1px solid cyan;
-  min-height:25rem;
+  /*border:1px solid cyan;*/
+  min-height:20rem;
+  margin-bottom:2.5rem;
 }
+
 
 .tabs-content{
    background: rgba(250, 250, 250, 0.9);
    width:100%;
    margin:0 auto;
    border-radius:0px;
-   min-height: 80rem;
+   min-height: 90rem;
 }
 
 
@@ -126,7 +128,7 @@ hr {
 }
 
 .bio{
-  text-align: center;
+/*  text-align: center;*/
 }
 
 .bioSquare{
@@ -239,7 +241,7 @@ margin:0 auto;
 }
 
 #dream{
-   text-align: center;
+/*   text-align: center;*/
  /* margin-top:-3rem;
   margin-bottom:5rem;*/
 
@@ -255,6 +257,7 @@ margin:0 auto;
   width:80%;
   border:2px solid black;
   background:rgba(255,255,255,0.4);
+  min-height:70rem;
 }
 
 @charset "UTF-8";
@@ -291,6 +294,7 @@ text-align:center;
 
 }
 
+
 .accordion-div{
   width:80%;
   margin:0 auto;
@@ -312,6 +316,21 @@ text-align:center;
 .linksContainer{
   margin:0 auto;
   text-align: center;
+}
+
+.reasons{
+  list-style-type:circle;
+  font-size:1.3rem;
+}
+
+
+.project-content{
+border: 1px solid red;
+}
+
+.descriptions h5{
+  text-decoration: underline;
+
 }
 
 
