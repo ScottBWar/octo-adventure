@@ -258,6 +258,7 @@ margin:0 auto;
   border:2px solid black;
   background:rgba(255,255,255,0.4);
   min-height:70rem;
+  margin-bottom:10rem;
 }
 
 @charset "UTF-8";
@@ -333,7 +334,23 @@ border: 1px solid red;
 
 }
 
+.footer {
+  background-color: #292c2f;
+  text-align: center;
+  font-size: 0.8rem;
+  padding: 2rem; }
+  .footer p.slogan {
+    color: #8d9093;
+    font-size: 1.8rem;
+    margin: 0 0 1rem; }
+  .footer p.copywrite {
+    color: #8f9296;
+    font-size: 0.875rem;
+    margin: 0; }
 
+a{
+  color:#16a085;
+}
 
 /**/
 
