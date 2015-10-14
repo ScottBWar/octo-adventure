@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="js/turtle.js"></script>
+<!-- 	<script src="js/sakura.js"></script> -->
+  <meta charset="utf-8">
+  <title>Sakura</title>
+</head>
+<body>
+<code style="whitespace: pre"id="codetag"></code>
+<canvas id="canvas" style="border:5px solid black; width:1000px; height:800px"></canvas>
+
+<h1 style="position:absolute;top:600px;left:600px;font-size:60px;font-family:fantasy">Sakura</h1>
+
+<script src="js/sakura.js"></script>
+
+ </body>
+ <script>
+ 
+ var begin = new Sakura(document.getElementById("codetag"),document.getElementById("canvas"));
+ begin.trunk.draw()
+</script>
+</html>
